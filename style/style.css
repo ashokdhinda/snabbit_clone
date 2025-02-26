@@ -61,7 +61,7 @@ position: relative;
 .startwo img{
     height: 30px;
     margin-top: 90px;
-    margin-right: 250px;
+    margin-right: 320px;
     position: relative;
 }
 .aboutimg{
@@ -111,5 +111,97 @@ position: relative;
 .service {
     color: #2b0b18;
 } 
+.serviceHome{
+    text-align: center;
+    font-size: 17px;
+    color:#5D0f36;
+ margin-top: 20px;
+}
+.downloadlogo{
+    background-color: black;
+}
+.firstwindow, .secondWindow{
+    position: relative;
+    height: 12rem;
+    width: 9rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:  0 0.3rem;
+    border-radius: 2px;
+     background-color:rgb(243, 235, 235);
+     border: none;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  bottom: 2rem;
+  
+}
+.thirdwindow{
+    position: relative;
+    height: 4rem;
+    width: 2rem;
+    border: 2px solid black;
+    top: 1rem;
+    right: 13rem;
+    background-color:rgb(243, 235, 235 );
+    border: none;
+  border-radius: 1px;
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px;
+}
+.thirdwindow>div{
+    position: absolute;
+    height: 3rem;
+    width: 1.5rem;
+    border: 2px solid black;
+    left: 2.4px;
+    align-items: center;
+    top: 0.4rem;
+     background-color: white;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+ 
+}
+.mainwindow{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
 
+.onediv{
+    position: absolute;
+    height: 11rem;
+    width: 3.5rem;
+    border: 2px solid black;
+    left: 0.5rem;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.twodiv{
+     position: absolute;
+    height: 11rem;
+    width: 3.5rem;
+    border: 2px solid rgb(30, 29, 29);
+    right: 0.5rem;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.downloadPart{
+    position: relative;
+       padding: 10px;
+       top: 1rem;
+       left: 8rem;
+       align-items: center;
+    
+}
+.downloadPart img{
+    height: 45px;
+    padding: 7px;
+    border-radius: 10px;
+}
+.firstwindow{
+    left: 14rem;
+}
 
